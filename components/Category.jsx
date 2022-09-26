@@ -6,6 +6,7 @@ function Category() {
 
   const TT = gsap.timeline({ defaults: { duration: 0.7 } });
 
+
   const nightDress = useRef(null);
   const weddingDress = useRef(null);
 

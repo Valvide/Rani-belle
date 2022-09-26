@@ -1,0 +1,10 @@
+.nav__list {
+  cursor: pointer;
+  padding: 8px;
+  padding-top: 12px;
+}
+.nav__list:hover,
+.nav__list:active {
+  color: rgb(48, 47, 47);
+  background-color: whitesmoke;
+}
