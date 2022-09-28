@@ -50,10 +50,14 @@
 .brand {
 }
 .navContainer .left .brand .brandName {
-  /* font-family: "Cinzel", serif; */
   font-family: "Allura", cursive;
-  /* font-size: 50px;
-  font-weight: 600; */
-  color: palevioletred;
-  font-family: inherit;
+  font-size: 25px;
+  color: rgb(238, 75, 129);
+  display: inline-block;
+  padding: 8px;
+  background-color: white;
+  word-spacing: 2px;
+  box-shadow: -1px 3px 13px 2px rgba(224, 88, 88, 0.75);
+  -webkit-box-shadow: -1px 3px 13px 2px rgba(224, 88, 88, 0.75);
+  -moz-box-shadow: -1px 3px 13px 2px rgba(224, 88, 88, 0.75);
 }

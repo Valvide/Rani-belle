@@ -2,9 +2,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100vh;
-  background-color: rgb(33, 36, 38);
+
+  background-color: #212426;
   color: white;
+  padding-top: 180px;
+  padding-bottom: 180px;
+  height: 1200px;
 }
 .categoryListContainer {
   padding-left: 30px;
@@ -28,13 +31,13 @@
   position: relative;
   flex: 2;
   overflow: hidden;
-  height: inherit;
-  background-color: white;
+  height: 100%;
+  background-color: rgb(201, 71, 151);
 }
 
 .contentDescription {
   position: absolute;
-  top: 300px;
+  bottom: 150px;
   right: 30px;
   word-wrap: break-word;
   background-color: whitesmoke;

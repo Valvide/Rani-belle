@@ -12,7 +12,7 @@ function SlideShow() {
   ];
   return (
     <div className="zoomContainer">
-      <Zoom scale={1.2} duration={2000} arrows={false} cssClass="zoomSlider">
+      <Zoom scale={1.2} duration={5000} arrows={false} cssClass="zoomSlider">
         {images.map((each, index) => (
           <div
             key={index}
@@ -23,9 +23,7 @@ function SlideShow() {
         ))}
       </Zoom>
       <span className="info">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ipsa ab
-        cumque tenetur laborum. Minus dolores illo ratione et, aperiam alias
-        laborum voluptate odit nemo ad? Excepturi quos labore corporis.
+        Stay up to date on our latest collections and trunk shows.
       </span>
     </div>
   );

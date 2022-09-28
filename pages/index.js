@@ -6,6 +6,7 @@ import SlideShow from "../components/SlideShow";
 
 import Category from "../components/Category";
 import MiddleSection from "../components/MiddleSection";
+import Testimonial from "../components/Testimonial";
 import Footer from "../components/Footer";
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
           <SlideShow />
           <MiddleSection />
           <Category />
+          <Testimonial />
         </div>
         <Footer />
       </div>

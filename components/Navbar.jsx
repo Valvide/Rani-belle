@@ -50,7 +50,7 @@ function Navbar() {
       </Head> */}
       <div className="left">
         <div className="brand">
-          <span className="brandName">RANI BELLE</span>
+          <span className="brandName">Rani Belle</span>
         </div>
       </div>
       <div className="center">

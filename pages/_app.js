@@ -9,6 +9,7 @@ import "../styles/MiddleSection.css";
 import "../styles/About.css";
 import "../styles/Footer.css";
 import "../styles/Navigation.css";
+import "../styles/Testimonial.css";
 import Drawer from "../components/Drawer";
 function MyApp({ Component, pageProps }) {
   return (

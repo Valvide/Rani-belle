@@ -1,55 +1,89 @@
 .footer {
+  padding-top: 140px;
+  border-top: 1px solid #eee;
+  background-color: #212426;
+  color: #eee;
+}
+
+.grid--footer {
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+  max-width: 1200px;
+  padding: 0 32px;
+  margin: 0 auto;
+  display: grid;
+  column-gap: 64px;
+  margin-bottom: 52px;
+}
+
+.logo-col {
   display: flex;
   flex-direction: column;
-  background-color: #212426;
-  /* height: 300px; */
-}
-.topFooter {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-}
-.topFooter .left {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  width: max-content;
-  gap: 10px;
-}
-.topFooter .left a {
-  text-decoration: none;
-  color: white;
-  font-size: 30px;
 }
 
-.topFooter .center {
-  width: max-content;
-  text-align: center;
-  height: max-content;
+.footer-logo {
+  display: block;
+  margin-bottom: 32px;
 }
-
-.topFooter .center .brandTop {
+.footer-brandName {
   font-family: "Allura", cursive;
   font-size: 50px;
   font-weight: 600;
   color: palevioletred;
   line-height: 30px;
 }
-.topFooter .center .brandBottom {
-  font-family: "Allura", cursive;
-  font-size: 30px;
-  font-weight: 400;
-  color: whitesmoke;
-}
-.bottomFooter {
-  text-align: center;
+
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 24px;
 }
 
-.bottomFooter .copyRight {
-  color: whitesmoke;
+.social-icon {
+  height: 24px;
+  width: 24px;
+}
+
+.copyright {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #767676;
+  margin-top: auto;
+}
+
+.footer-heading {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+.contacts {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.address {
+  margin-bottom: 24px;
+}
+
+.footer-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  font-size: 16px;
+  color: #eee;
+  transition: all 0.3s;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: palevioletred;
 }
 .companyLogo {
   display: flex;
